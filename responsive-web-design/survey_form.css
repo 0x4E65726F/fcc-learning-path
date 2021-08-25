@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F4F4;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > img {
+    width: 800px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#introduction-box {
+    width: 800px;
+    height: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-top-style: solid;
+    border-color: #582A29;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#survey-form > div {
+    width: 740px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#survey-form > div > label {
+    margin-bottom: 20px;
+}
+
+#survey-form > div > input {
+    border-style: none none dotted none;
+    border-color: #582A29;
+} 
+
+#survey-form > div > select {
+    border-style: none none dotted none;
+    border-color: #582A29;
+} 
+
+#survey-form > div > textarea {
+    border-style: none none dotted none;
+    border-color: #582A29;
+}
+
+#submit {
+    width: 800px;
+    height: 50px;
+    background-color: #582A29;
+    border-radius: 15px;
+    color: White;
+    text-align: center;
+}

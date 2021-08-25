@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 200) {
+    body {
+        font-size: 10px;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75px;
+}
+
+.nav-link {
+    padding-left: 50px;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+#header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+.button {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border: 3px black solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+.button:hover {
+    background-color: darkkhaki;
+}
+
+#point {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+#point > i {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: darkorange;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#box {
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+#box > h3 {
+    background-color: darkgray;
+    padding: 10px 50px 10px 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+#link > a {
+    padding-left: 20px;
+}
+
+#link > a:hover {
+    color: gray;
+}
